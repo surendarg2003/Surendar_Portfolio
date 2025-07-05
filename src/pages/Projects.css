@@ -117,6 +117,11 @@
     margin-bottom: 1rem;
   }
 
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
   .project-card {
     padding: 1rem;
   }
@@ -131,5 +136,20 @@
 
   .tech-tag {
     font-size: 0.7rem;
+  }
+}
+
+/* Additional improvements for mobile and tablet */
+@media (max-width: 768px) {
+  .project-card {
+    box-shadow: none;
+    border: none;
+    background: transparent;
+  }
+}
+
+@media (max-width: 480px) {
+  .project-card {
+    padding: 0.75rem;
   }
 }

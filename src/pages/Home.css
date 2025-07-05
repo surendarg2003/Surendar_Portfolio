@@ -73,6 +73,21 @@ body.dark .summary {
   }
 }
 
+/* Additional improvements for mobile and tablet */
+@media (max-width: 768px) {
+  .profile-pic {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-pic {
+    width: 140px;
+    height: 140px;
+  }
+}
+
 .home-content h1 {
   font-size: 3.5rem;
   margin-bottom: 1rem;
