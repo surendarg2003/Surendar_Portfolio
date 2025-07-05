@@ -1,0 +1,77 @@
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Aligns logo, nav links, and buttons */
+  align-items: center;
+  padding: 1.5rem 3rem; /* Slightly larger padding for better spacing */
+  background-color: #0d0d0d;
+  color: #f5f5f5;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  backdrop-filter: saturate(180%) blur(20px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  font-size: 3rem; /* Increased from 1.8rem */
+  font-weight: bold;
+  color: #00ffcc;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 5rem; /* More space between each link */
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline-block;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 1.8rem; /* Increased from 1.2rem */
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #00ffcc;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  font-size: 1.6rem; /* Increased from 1.5rem */
+  cursor: pointer;
+  color: #f5f5f5;
+  transition: color 0.3s ease;
+  margin-left: 2rem; /* Adds space before back button */
+}
+
+.back-button:hover {
+  color: #00ffcc;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  font-size: 1.4rem; /* Increased from 1.2rem */
+  cursor: pointer;
+  color: #f5f5f5;
+  transition: color 0.3s ease;
+  margin-left: auto; /* Pushes it to the right */
+}
+.right-section a {
+  display: inline-block;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  color: #f5f5f5;
+  transition: color 0.3s ease;
+}
+
+.right-section a:hover {
+  color: #00ffcc;
+}

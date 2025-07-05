@@ -1,0 +1,95 @@
+.publications-section {
+  padding: 4rem 2rem;
+  background-color: #0d0d0d;
+  color: #f5f5f5;
+  /* Added min-height to fill viewport and remove white space below */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.main-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem; /* Reduced margin below heading to bring box closer */
+}
+
+.publication-list {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+  margin-top: 0; /* Removed extra margin top */
+}
+
+.main-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 0rem; /* 🟢 No space below heading */
+}
+
+.board-card {
+  margin-top: 0.2rem; /* 🟢 Tiny space between heading and board */
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.publication-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.publication-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 250, 0.1);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 8px 32px rgba(0, 255, 204, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.publication-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 36px rgba(0, 255, 204, 0.3);
+}
+
+.publication-card a {
+  color: #00ffcc;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: 9rem;
+  display: block;
+}
+
+.publication-card p {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+.glowing-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 250, 0.1);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 8px 32px rgba(0, 255, 204, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.glowing-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 36px rgba(0, 255, 204, 0.3);
+}
