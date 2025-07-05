@@ -38,3 +38,36 @@
   transform: translateY(-8px);
   box-shadow: 0 12px 36px rgba(0, 255, 204, 0.3);
 }
+
+/* Responsive styles for Certificates page */
+@media (max-width: 768px) {
+  .certificates-section {
+    padding: 2rem 1rem;
+  }
+
+  .certificates-section h2 {
+    font-size: 2rem;
+  }
+
+  .certificates-grid {
+    gap: 1rem;
+  }
+
+  .certificate-card {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .certificates-section {
+    padding: 1rem 0.5rem;
+  }
+
+  .certificates-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .certificate-card {
+    padding: 0.75rem;
+  }
+}

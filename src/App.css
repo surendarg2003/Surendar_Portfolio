@@ -17,3 +17,16 @@ body.dark .App {
   background-color: #0d0d0d;
   color: #f5f5f5;
 }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .App {
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .App {
+    padding: 0 0.5rem;
+  }
+}

@@ -74,3 +74,38 @@
   margin-bottom: 1rem;
   color: #00ffcc;
 }
+
+/* Responsive styles for Contact page */
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 2rem 1rem;
+  }
+
+  .centered-title {
+    font-size: 2rem;
+  }
+
+  .contact-info {
+    max-width: 100%;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-section {
+    padding: 1rem 0.5rem;
+  }
+
+  .centered-title {
+    font-size: 1.5rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.8rem;
+  }
+}

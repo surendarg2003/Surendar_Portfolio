@@ -12,6 +12,51 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+/* Responsive Navbar for tablets and mobiles */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 1.5rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+  }
+
+  .nav-links li {
+    display: block;
+    width: 100%;
+  }
+
+  .nav-links a {
+    font-size: 1.5rem;
+    display: block;
+    width: 100%;
+  }
+
+  .logo {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 0.5rem 1rem;
+  }
+
+  .nav-links a {
+    font-size: 1.2rem;
+  }
+
+  .logo {
+    font-size: 2rem;
+  }
+}
+
 .logo {
   font-size: 3rem; /* Increased from 1.8rem */
   font-weight: bold;
