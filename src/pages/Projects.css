@@ -1,27 +1,22 @@
-/* Base styles for Projects page */
 .projects-section {
-  padding: 4rem 2rem; /* Match About page padding */
+  padding: 4rem 2rem;
   background-color: #0d0d0d;
   color: #f5f5f5;
   min-height: 100vh;
   text-align: center;
   border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 0 0 12px 12px; /* Remove top border-radius to avoid curved margin near navbar */
+  border-radius: 0 0 12px 12px;
   margin-bottom: 2rem;
 }
 
 .main-heading {
   font-size: 2.5rem;
-  margin-bottom: 10rem; /* Match About page spacing */
+  margin-bottom: 10rem;
   color: #00ffcc;
 }
 
 .projects-grid {
-  margin-top: 4rem; /* Increased gap between heading and boxes */
-}
-
-.projects-grid {
-  margin-top: 3rem; /* Increased from 2rem to 3rem */
+  margin-top: 3rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
@@ -29,7 +24,6 @@
   margin-left: auto;
   margin-right: auto;
 }
-
 
 .project-card {
   background: rgba(255, 255, 255, 0.05);
@@ -40,6 +34,10 @@
   box-shadow: 0 8px 32px rgba(0, 255, 204, 0.15);
   transition: transform 0.3s ease;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
 }
 
 .project-card:hover {
@@ -50,25 +48,15 @@
 .project-card h3 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
-  color: #ffffff; /* Changed project title color to white */
+  color: #ffffff;
   display: flex;
   align-items: center;
-}
-
-.project-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start; /* Align content at the top */
-  height: 100%; /* Ensure all cards have equal height */
 }
 
 .project-card p {
   font-size: 1.1rem;
   color: #ccc;
   margin-bottom: 1rem;
-  white-space: normal; /* Allow full content to be shown */
-  overflow: visible;
-  text-overflow: clip;
 }
 
 .technologies {
@@ -85,7 +73,7 @@
   margin-right: 0.5rem;
 }
 
-/* Responsive styles */
+/* Responsive */
 @media (max-width: 768px) {
   .projects-section {
     padding: 2rem 1rem;
