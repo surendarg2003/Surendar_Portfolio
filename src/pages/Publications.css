@@ -67,7 +67,7 @@
 /* Responsive styles for Publications page */
 @media (max-width: 768px) {
   .publications-section {
-    padding: 2rem 1rem;
+    padding: 6rem 1rem 1rem 1rem;
   }
 
   .main-heading {

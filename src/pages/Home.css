@@ -29,8 +29,15 @@ body.dark .summary {
 /* Responsive styles for Home page */
 @media (max-width: 768px) {
   .home {
-    padding: 5rem 1rem 1rem 1rem;
+    padding: 7rem 1rem 1rem 1rem;
   }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) {
+  .home {
+    padding-top: 7rem;
+  }
+}
 
   .home-content h1 {
     font-size: 2.5rem;
