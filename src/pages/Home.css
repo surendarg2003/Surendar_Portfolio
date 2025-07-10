@@ -60,7 +60,8 @@ body.dark .summary {
     width: 220px;
     height: 220px;
     object-fit: contain;
-    margin: 0 auto;
+    margin: 5rem auto 0 auto;
+    display: block;
   }
 }
 
