@@ -9,12 +9,12 @@
 /* Make "About Me" heading bigger and centered */
 .main-heading {
   font-size: 2.5rem;
-  margin-bottom: 10rem; /* Increased spacing below the heading */
+  margin-bottom: 3rem; /* Adjusted to match Projects page gap */
   color: #00ffcc;
 }
 
 .education {
-  margin-top: 7rem; /* Extra top space before the first card */
+  margin-top: 0.2rem; /* Adjusted to match Projects page gap */
 }
 
 .education,
