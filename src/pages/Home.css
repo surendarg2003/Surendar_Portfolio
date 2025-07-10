@@ -29,7 +29,7 @@ body.dark .summary {
 /* Responsive styles for Home page */
 @media (max-width: 768px) {
   .home {
-    padding: 2rem 1rem;
+    padding: 5rem 1rem 1rem 1rem;
   }
 
   .home-content h1 {
