@@ -67,11 +67,12 @@
 
 @media (max-width: 480px) {
   .certificates-section {
-    padding: 5rem 0.5rem 1rem 0.5rem;
+    padding: 7rem 0.5rem 1rem 0.5rem;
   }
 
   .certificates-section h2 {
     font-size: 1.5rem;
+    margin-bottom: 3rem;
   }
 
   .certificates-grid {
