@@ -43,7 +43,7 @@
 /* Responsive styles for Certificates page */
 @media (max-width: 768px) {
   .certificates-section {
-    padding: 2rem 1rem;
+    padding: 5rem 1rem 1rem 1rem;
   }
 
   .certificates-section h2 {
