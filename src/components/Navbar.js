@@ -4,6 +4,7 @@ import './Navbar.css';
 
 const Navbar = () => {
   const [showBackButton, setShowBackButton] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -24,17 +25,27 @@ const Navbar = () => {
     navigate(-1);
   };
 
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <nav className="navbar">
       <div className="logo">Surendar G</div>
 
-      <ul className="nav-links">
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/projects">Projects</Link></li>
-        <li><Link to="/certificates">Certificates</Link></li>
-        <li><Link to="/publications">Publications</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
+      <button className="hamburger" onClick={toggleMenu} aria-label="Toggle menu">
+        <span className={`bar ${menuOpen ? 'open' : ''}`}></span>
+        <span className={`bar ${menuOpen ? 'open' : ''}`}></span>
+        <span className={`bar ${menuOpen ? 'open' : ''}`}></span>
+      </button>
+
+      <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
+        <li><Link to="/" onClick={() => setMenuOpen(false)}>Home</Link></li>
+        <li><Link to="/about" onClick={() => setMenuOpen(false)}>About</Link></li>
+        <li><Link to="/projects" onClick={() => setMenuOpen(false)}>Projects</Link></li>
+        <li><Link to="/certificates" onClick={() => setMenuOpen(false)}>Certificates</Link></li>
+        <li><Link to="/publications" onClick={() => setMenuOpen(false)}>Publications</Link></li>
+        <li><Link to="/contact" onClick={() => setMenuOpen(false)}>Contact</Link></li>
       </ul>
 
       {/* Right Section */}
