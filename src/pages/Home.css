@@ -57,8 +57,10 @@ body.dark .summary {
   }
 
   .profile-pic {
-    width: 180px;
-    height: 180px;
+    width: 220px;
+    height: 220px;
+    object-fit: contain;
+    margin: 0 auto;
   }
 }
 
