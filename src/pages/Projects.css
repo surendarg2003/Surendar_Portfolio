@@ -78,6 +78,12 @@
   .projects-section {
     padding: 6rem 1rem 1rem 1rem;
   }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) {
+  .projects-section {
+    padding-top: 12rem;
+  }
 
   .main-heading {
     font-size: 2rem;

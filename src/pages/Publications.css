@@ -69,26 +69,27 @@
   .publications-section {
     padding: 6rem 1rem 1rem 1rem;
   }
-
   .main-heading {
     font-size: 2rem;
     margin-bottom: 1rem;
   }
-
   .publication-list {
     gap: 1.5rem;
   }
-
   .publication-card {
     padding: 1rem;
   }
-
   .publication-card a {
     font-size: 1.1rem;
   }
-
   .publication-card p {
     font-size: 0.85rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) {
+  .publications-section {
+    padding-top: 14rem;
   }
 }
 
@@ -96,24 +97,19 @@
   .publications-section {
     padding: 5rem 0.5rem 1rem 0.5rem;
   }
-
   .main-heading {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
   }
-
   .publication-list {
     gap: 1rem;
   }
-
   .publication-card {
     padding: 0.75rem;
   }
-
   .publication-card a {
     font-size: 1rem;
   }
-
   .publication-card p {
     font-size: 0.8rem;
   }
