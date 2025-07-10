@@ -49,7 +49,7 @@
 
 @media (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) {
   .certificates-section {
-    padding-top: 12rem;
+    padding-top: 7rem;
   }
 
   .certificates-section h2 {

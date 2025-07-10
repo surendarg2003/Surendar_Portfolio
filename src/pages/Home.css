@@ -35,7 +35,7 @@ body.dark .summary {
 
 @media (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) {
   .home {
-    padding-top: 10rem;
+    padding-top: 7rem;
   }
 
   .home-content h1 {

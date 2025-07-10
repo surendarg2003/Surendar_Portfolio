@@ -61,7 +61,7 @@
 /* Responsive styles for About page */
 @media (max-width: 768px) {
   .about-section {
-    padding: 5rem 1rem 1rem 1rem;
+    padding: 7rem 1rem 1rem 1rem;
   }
 
   .main-heading {
@@ -88,7 +88,7 @@
 
 @media (max-width: 480px) {
   .about-section {
-    padding: 5rem 0.5rem 1rem 0.5rem;
+    padding: 7rem 0.5rem 1rem 0.5rem;
   }
 
   .main-heading {
