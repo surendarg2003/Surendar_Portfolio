@@ -143,6 +143,7 @@
     align-items: center;
     padding: 0 1rem;
     height: 60px;
+    justify-content: space-between;
   }
 
   .nav-links {
@@ -163,12 +164,13 @@
   }
 
   .logo {
-    font-size: 2rem;
+    font-size: 2.4rem;
     margin-bottom: 0;
   }
 
   .hamburger {
     display: flex;
+    order: 2;
   }
 
   .nav-links {
@@ -231,13 +233,14 @@
   }
 
   .logo {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin-bottom: 0;
     flex-shrink: 0;
   }
 
   .hamburger {
     display: flex;
+    order: 2;
   }
 
   .nav-links {

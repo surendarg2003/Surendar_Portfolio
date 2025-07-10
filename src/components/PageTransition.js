@@ -9,8 +9,8 @@ const getPageVariants = (isDesktop) => ({
 
 const pageTransition = {
   type: 'tween',
-  ease: 'easeInOut',
-  duration: 0.5
+  ease: 'easeOut',
+  duration: 0.8
 };
 
 const PageTransition = ({ children }) => {
@@ -27,6 +27,7 @@ const PageTransition = ({ children }) => {
 
   const pageVariants = getPageVariants(isDesktop);
 
+  // Always animate on desktop and mobile with updated transition for smoothness
   return (
     <motion.div
       initial="initial"
