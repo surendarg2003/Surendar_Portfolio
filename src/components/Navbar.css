@@ -51,31 +51,37 @@
 @media (max-width: 480px) {
   .navbar {
     padding: 0.25rem 0.5rem;
-    height: auto;
-    flex-direction: column;
-    align-items: flex-start;
+    height: 50px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .nav-links {
-    flex-direction: column;
+    flex-direction: row;
     gap: 0.5rem;
-    width: 100%;
+    width: auto;
+    flex-wrap: nowrap;
+    overflow-x: auto;
   }
 
   .nav-links li {
-    width: 100%;
+    width: auto;
+    flex-shrink: 1;
   }
 
   .nav-links a {
-    font-size: 0.9rem;
-    display: block;
-    width: 100%;
-    padding: 0.25rem 0;
+    font-size: 0.8rem;
+    display: inline-block;
+    width: auto;
+    padding: 0 0.25rem;
+    white-space: nowrap;
   }
 
   .logo {
-    font-size: 1.4rem;
-    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    flex-shrink: 0;
   }
 }
 
