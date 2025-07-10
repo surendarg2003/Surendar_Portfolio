@@ -97,7 +97,7 @@
 
 @media (max-width: 480px) {
   .contact-section {
-    padding: 1rem 0.5rem;
+    padding: 7rem 0.5rem 1rem 0.5rem;
   }
 
   .centered-title {
@@ -107,5 +107,11 @@
   .contact-form input,
   .contact-form textarea {
     font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) {
+  .contact-section {
+    padding-top: 7rem;
   }
 }
